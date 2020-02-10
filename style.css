@@ -77,11 +77,16 @@ p
 	margin-left:20px;
 	text-decoration:none;	
 }
+#menu ul li a:hover
+{
+	background:#003399;
+
+}
 #content
 {
 	width:1200px;
 	margin:0 auto;
-	background-color:#FFF;
+	background-color:#FFFFFF;
 }
 #upblock
 {
@@ -164,11 +169,40 @@ p
 {
 	color:gray;
 }
+.service
+{
+	width:500px;
+	float:left;
+	margin-left:20px;
+	text-align:center;	
+}
+.service h2
+{
+	padding-top:20px;
+}
 .clear
 {
 	clear:both;
 }
-
+#table
+{
+	width:1000px;
+	border:2px 2px 2px 2px;
+	text-align:center;
+}
+#table th, table tr td
+{
+	width:80px;
+}
+.about
+{
+	width:1200px;
+}
+.about img
+{
+	padding-top:20px;
+	padding-bottom:20px;
+}
 
 
 
