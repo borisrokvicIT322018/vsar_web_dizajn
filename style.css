@@ -21,6 +21,8 @@ h3
 	font-size:20px;
 	color:#0066CC;
 	font-weight:normal;
+	padding-top:20px;
+	padding-left:10px;
 }
 h4
 {
@@ -184,15 +186,21 @@ p
 {
 	clear:both;
 }
-#table
+table
 {
 	width:1000px;
-	border:2px 2px 2px 2px;
-	text-align:center;
+	margin-left:100px;
+	margin-right:100px;
+	border:1px 1px 1px 1px;
+	border-style:groove;
 }
-#table th, table tr td
+table th, table tr td
 {
 	width:80px;
+	font-size:19px;
+	color:gray;
+	text-align:center;
+	border-bottom-style:double;
 }
 .about
 {
@@ -203,6 +211,50 @@ p
 	padding-top:20px;
 	padding-bottom:20px;
 }
+.shop
+{
+	width:1200px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.column 
+{
+  float:left;
+  width:20%;
+  padding:20px;
+}
+.column img 
+{
+  opacity:0.8;
+  cursor:pointer;
+}
+.column img:hover 
+{
+  opacity:1;
+}
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position:relative;
+  display:none;
+}
 
+/* Expanding image text */
+#imgtext {
+  position:absolute;
+  top:15px;
+  left:15px;
+  color:red;
+  font-size:20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position:absolute;
+  top:10px;
+  right:15px;
+  color:red;
+  font-size:35px;
+  cursor:pointer;
+} 
 
 
